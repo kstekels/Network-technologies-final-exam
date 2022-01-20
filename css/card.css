@@ -1,0 +1,30 @@
+.card {
+  margin: 0.7rem;
+  height: 35wh;
+  min-height: 340px;
+  max-height: 340px;
+  min-width: 300px;
+}
+
+.card-title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+}
+
+.zoom {
+  transition: transform 0.5s;
+}
+
+.zoom:hover {
+  background-color: rgba(128, 128, 128, 0.1);
+  transform: scale(1.05);
+}

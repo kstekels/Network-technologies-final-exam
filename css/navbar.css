@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+
+.top-navbar {
+  width: 100%;
+  background-color: #02161ab6;
+  overflow: auto;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10%, 1fr));
+  font-family: "Ubuntu", sans-serif;
+}
+
+.top-navbar a {
+  text-align: center;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+.top-navbar a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.active {
+  background-color: #4fbdb977;
+}
+
+.form-inline {
+  float: right;
+  padding: 6px;
+  margin-right: 1rem;
+}
+
+@media (max-width: 500px) {
+  .top-navbar a {
+    float: none;
+    font-size: 1rem;
+  }
+
+  .wrapper {
+    padding: 0;
+  }
+
+  .top-navbar a, .wrapper {
+    display: block;
+  } 
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway:wght@300&family=Ubuntu:ital,wght@1,500&display=swap");
+
+body {
+  margin-bottom: 0;
+}
+
+h5 {
+  font-family: "Merriweather", serif;
+}
+
+hr {
+  margin-top: 0;
+  width: 65%;
+}
+
+footer {
+  text-align: center;
+}
+
+#post-button {
+  width: 100%;
+  margin-top: auto;
+}
+
+#post-image {
+  max-height: 150px;
+  object-fit: cover;
+}
+
+#pagination-section li a {
+  
+  text-decoration: none;
+}
+
+.column {
+  padding: 0.5rem;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  padding: 10px;
+}
+
+ul {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+  text-align: left;
+}
+
+li {
+  display: block;
+  width: auto;
+  list-style: none;
+}
+
+.header-text {
+  font-size: 70%;
+  color: rgba(116, 116, 116, 0.9);
+}
+
+
+
+@media (max-width: 992px) {
+  ul {
+    column-count: 3;
+  }
+}
+
+@media (max-width: 772px) {
+  ul {
+    column-count: 2;
+  }
+}
+
+

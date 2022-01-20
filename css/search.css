@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap");
+
+.search-form {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+#news-header {
+  font-family: "Raleway", sans-serif;
+}
+
+.form-components {
+  display: grid;
+  grid-template-columns: 4fr 1fr;
+}
+
+.header-title {
+  text-align: center;
+}
+
+#search-button {
+  justify-self: end;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+<!-- Icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="../css/navbar.css" />
+<link rel="stylesheet" href="../css/contact.css" />
+
+<!-- Favicon -->
+<link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+
+<!-- Ajax -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="../js/utilities.js"></script>
+<script src="../js/constants.js"></script>
+<script src="../js/contact.js"></script>
+
+<title>Contact</title>
+</head>
+<body>
+    <section id="navigation-bar">
+        <div class="top-navbar">
+            <div class="container wrapper">
+                <a id="home-link" class="active" href="./index.html"><i class="fa fa-fw fa-home"></i> Home</a>
+                <a id="news-link" href="news.html?page=1"><i class="fa fa-newspaper-o" aria-hidden="true"></i> News</a>
+                <a id="search-link" href="search.html"><i class="fa fa-fw fa-search"></i> Search</a>
+                <a id="contact-link" href="contact.html"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+                <a id="sources-link" href="sources.html"><i class="fa fa-external-link" aria-hidden="true"></i> Sources</a>
+            </div>
+        </div>
+    </section>
+    <br>
+    <section id="contact-me">
+        <div class="container">
+            <form name="contactForm" action="mailto:contact@ks21180.news.lv" method="post" enctype="text/plain">
+          
+              <label for="fname">* First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
+          
+              <label for="lname">* Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name.." required>
+          
+              <label for="email">* Email</label>
+              <input type="email" id="email" name="email" placeholder="e-mail..." required>
+            <br>
+              <label for="subject">Topic</label>
+              <select id="subject" name="subject">
+                <option value="post">Post</option>
+                <option value="ads">Ads</option>
+                <option value="other">Other</option>
+              </select>
+          
+              <label for="body">* Subject</label>
+              <textarea id="body" name="body" placeholder="Write your message here.." style="height:200px" required></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+          </div> 
+    </section>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.min.js"
+        integrity="sha384-VHvPCCyXqtD5DqJeNxl2dtTyhF78xXNXdkwX1CZeRusQfRKp+tA7hAShOK/B/fQ2"
+        crossorigin="anonymous"></script>
+</body>
+</html>

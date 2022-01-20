@@ -1,0 +1,16 @@
+h3 a:hover {
+  color: rgba(255, 250, 250, 0.5);
+}
+
+.carousel-img {
+  object-fit: cover;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.9;
+  max-height: 450px;
+}
+
+.courusel-title {
+  color: snow;
+}

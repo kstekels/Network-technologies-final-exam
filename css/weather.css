@@ -1,0 +1,28 @@
+#icon {
+  margin-bottom: 0.5rem;
+  width: 80px;
+  height: 80px;
+}
+
+#weather-section {
+  display: flex;
+  padding: 0.5rem;
+  align-items: end;
+  justify-content: flex-end;
+  max-width: 50%;
+}
+
+.weather-header li p {
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.img-icon {
+  display: inline;
+  margin-right: 0.5rem;
+}
+
+.img-icon {
+  width: 25px;
+  height: 25px;
+}

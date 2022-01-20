@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Roboto&family=Roboto+Mono:wght@700&display=swap");
+
+table {
+  table-layout: fixed;
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ccc;
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+td:first-child {
+  font-family: "Roboto", sans-serif;
+}
+
+td:nth-child(3) {
+  font-family: "Merriweather", serif;
+  color: rgba(204, 204, 204, 0.8);
+  font-style: italic;
+}
+
+#table-title {
+  font-family: "Roboto Mono", monospace;
+}
