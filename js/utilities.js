@@ -296,10 +296,12 @@ const disablePaginatorButton = (pageNum, button, isFirst) => {
 };
 
 
-const validateForm = (formName, fieldName) => {
-  let field = document.forms[formName][fieldName];
-  if (field.value == "") {
-    alert(field.name + "must be filled out!");
-    return false
-  }
-}
+
+
+// const validateForm = (formName, fieldName) => {
+//   let field = document.forms[formName][fieldName];
+//   if (field.value == "") {
+//     alert(field.name + " must be filled out!");
+//     return false
+//   }
+// } 
